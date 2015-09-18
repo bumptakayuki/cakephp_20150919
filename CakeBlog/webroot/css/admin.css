@@ -1,0 +1,91 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+header {
+  font-family: "ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN",sans-serif; /* 1 */
+  background-color: #800000;
+}
+#top-menu {
+    width: 90%;
+    height: 50px;
+    top :-20px;
+    position: relative;
+}
+#top-menu li{
+    width: 110px;
+    color :white;
+    height:40px;
+    text-align:center;
+    font-size:11px;
+    list-style-type:none;
+    float:left;
+    padding:10px;
+    background: linear-gradient(white,#FFC0CB );
+    border-radius: 0px 0px 10px 10px / 0px 0px 10px 10px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+}
+#top-menu li a:hover{
+	top :-10px;
+	left:-10px;
+    position: relative;
+    width: 110px;
+    height:40px;
+    text-align:center;
+    font-size:11px;
+    list-style-type:none;
+    float:left;
+    padding:10px;
+    background: linear-gradient(white,#FFE4E1 );
+    border-radius: 0px 0px 10px 10px / 0px 0px 10px 10px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+}
+#top-menu li.current{
+    width: 110px;
+    height:40px;
+    text-align:center;
+    font-size:11px;
+    list-style-type:none;
+    float:left;
+    padding:10px;
+    background: linear-gradient(white,#FFE4E1 );
+    border-radius: 0px 0px 10px 10px / 0px 0px 10px 10px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+}
+table th{
+	background-color: #FFE4E1;
+}
+
+#main-menu{
+    margin-bottom: 10px;
+    height:50px;
+}
+ul#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul#menu li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+    background-color: #FFC0CB;
+    display: block;
+}
+ul.child{
+    display: none;
+    position: absolute;
+    margin-left: -5px;
+    padding: 0;
+}
+ul.child li a{
+    padding: 5px 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+}
+ul.child li a:hover{
+    background: #ff0000;
+}
